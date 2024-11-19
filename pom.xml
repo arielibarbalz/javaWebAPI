@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>java-webapi-parent</groupId>
   <artifactId>sesiones-web-app</artifactId>
@@ -8,6 +8,13 @@
   <description>proyecto padre</description>
   <!-- variables-->
   <properties>
-  <!-- version de java a usar-->
+    <!-- version de java a usar-->
+	<maven.compiler.sourcee>17</maven.compiler.sourcee>
+	<maven.compiler.target>17</maven.compiler.target>
   </properties>
+  <modules>
+    <module>session-web-app</module>
+    <module>app-service</module>
+    <module>app-repository-parent</module>
+  </modules>
 </project>
