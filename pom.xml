@@ -9,7 +9,7 @@
   <!-- variables-->
   <properties>
     <!-- version de java a usar-->
-	<maven.compiler.sourcee>17</maven.compiler.sourcee>
+	<maven.compiler.source>17</maven.compiler.source>
 	<maven.compiler.target>17</maven.compiler.target>
   </properties>
   <modules>
